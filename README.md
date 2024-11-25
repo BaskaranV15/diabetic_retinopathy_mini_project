@@ -34,11 +34,11 @@ TensorFlow, Keras
 ## Output
 #### Output1 - Front-end
 
-![image](https://github.com/user-attachments/assets/18f2c60a-e767-4a05-963a-12eeb5f6969b)
+![Screenshot 2024-11-25 105224](https://github.com/user-attachments/assets/13272644-80d4-41d2-8567-84078cc92a47)
 
 #### Output2 - Predicted Output
 
-![image](https://github.com/user-attachments/assets/588ac269-0b17-403c-a110-492febde77d3)
+![Screenshot 2024-11-25 105234](https://github.com/user-attachments/assets/fc47bbf6-1491-4737-84cf-afefb11ad12e)
 
 Detection Accuracy: 93.7%
 Disease: Diabetic Retinopathy
