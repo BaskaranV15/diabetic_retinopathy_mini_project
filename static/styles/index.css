@@ -1,0 +1,268 @@
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('https://plus.unsplash.com/premium_vector-1689096802077-02c79d04371f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxhY2t8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background: linear-gradient(90deg, #d4af37, #c5a56f);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #c5a56f;
+    animation: headerSlideIn 1s ease-out;
+}
+
+/* Form */
+form {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #d4af37;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+h1 {
+    color: #d4af37;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+input[type="file"]:hover {
+    background: #d4af37;
+    color: black;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+}
+
+button {
+    background: #d4af37;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease, transform 0.3s;
+    width: 100%;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.8);
+}
+
+button:hover {
+    background: #b8860b;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.8);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #c5a56f;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes headerSlideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Table for output (if required) */
+table {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+    animation: fadeIn 2s ease-out;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+table th, table td {
+    border: none;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+}
+
+table th {
+    background: #d4af37;
+    color: black;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(212, 175, 55, 0.1);
+}
+
+table tr:hover {
+    background-color: rgba(212, 175, 55, 0.3);
+}
+/* General Styles */
+body {
+    font-family: 'Lora', serif; /* Elegant font */
+    background: url('your-uploaded-image-path.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: #d4af37; /* Gold color */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+/* Content Section */
+form {
+    background: rgba(0, 0, 0, 0.85); /* Slight transparency */
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    width: 350px;
+    text-align: center;
+    margin-top: 100px; /* Spacing due to fixed header */
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background: #fff7dd;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 242, 198, 0.8);
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    background: #d4af37;
+    color: black;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b8860b;
+    box-shadow: 0 8px 15px rgba(212, 175, 55, 0.8);
+    transform: translateY(-2px);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* Elegant font */
+    font-size: 2.5rem; /* Large size */
+    color: #d4af37; /* Gold color */
+     /* Subtle shadow */
+    text-transform: uppercase; /* Capitalize all text */
+    letter-spacing: 2px; /* Slight spacing */
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out; /* Smooth entrance */
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
