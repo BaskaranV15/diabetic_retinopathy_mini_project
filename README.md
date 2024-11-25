@@ -32,14 +32,18 @@ TensorFlow, Keras
 ![image](https://github.com/user-attachments/assets/e70c1f72-bfce-414e-b1dc-0b7d69c081ad)
 
 ## Output
-#### Output1 - Name of the output
+#### Output1 - Front-end
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/18f2c60a-e767-4a05-963a-12eeb5f6969b)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Predicted Output
+
+![image](https://github.com/user-attachments/assets/588ac269-0b17-403c-a110-492febde77d3)
 
 Detection Accuracy: 93.7%
+Disease: Diabetic Retinopathy
+Description: Damage to the retina caused by high blood sugar levels.
+
 Note: These metrics can be customized based on your actual performance evaluations.
 
 ## Results and Impact
